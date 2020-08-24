@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+body{
+ background: url("background.jpg");
+ 
+}
+
+.container {
+  position: absolute;
+  width: 1024px;
+  height: 800px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.title {
+  position: relative;
+  /*background-color: rgba(0, 0, 0, 1);*/
+  color: rgb(255, 255, 255);
+  padding: 20px 20px 0px 20px;
+  font-size: 2.5em;
+  border-radius: 5px;
+
+}
+#tagline{
+  position: relative;
+  /*background-color: rgba(0, 0, 0, 1);*/
+  color: rgb(255, 255, 255);
+  padding: 20px 20px 0px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.questionBox {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #5d5d5d;
+  background-color: #282828;
+}
+
+.answerBtn {
+  position: relative;
+  padding: 10px;
+  background-color: #e8491d;
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.score-board {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 250px;
+  text-align: center;
+}
+
+.playBtn {
+  position: absolute;
+  font-size: 1.4em;
+  padding: 10px;
+  top: 350px;
+  background-color: rgb(46, 182, 46);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.playBtn:hover{
+  position: absolute;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  top: 345px;
+  background-color: #e8491d;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  width: 170px;
+  height:60px;
+}
